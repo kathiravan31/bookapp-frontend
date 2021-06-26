@@ -1,0 +1,75 @@
+import { StyleSheet } from 'react-native';
+
+const styles = StyleSheet.create({
+    container:{
+        flex:1
+    },
+    detailsContainer:{
+        padding:10,
+        display:'flex'
+    },
+    image_container:{
+        display:'flex',
+        flexDirection:'row',
+        alignItems:'center',
+        justifyContent:'center'
+    },
+    titleContainer:{
+        display:'flex',
+        padding:10,
+        flex:1
+    },
+    image:{
+        height:200,
+        width:150,
+        resizeMode:'contain'
+    },
+    title:{
+        fontSize:18,
+        fontWeight:'600',
+        marginBottom:10
+    },
+    descriptionContainer:{
+        padding:10,
+    },
+    descriptionTitle:{
+        fontSize:17,
+        fontWeight:'500',
+        marginBottom:5
+    },
+    linkContainer:{
+        padding:20,
+        paddingBottom:0,
+        flex:1,
+        paddingTop:0
+    },
+    Booksavailable:{
+        fontWeight:'600',
+        fontSize:20
+    },
+    buyContainer:{
+        width:'100%',
+        padding:10,
+        display:'flex',
+        flexDirection:'row',
+        alignItems:'center',
+        justifyContent:'space-between',
+    },
+    buylinkText:{
+        fontSize:18,
+    },
+    buylinkButton:{
+        padding:5,
+        alignItems:'center',
+        justifyContent:'center',
+        borderRadius:5,
+        backgroundColor:'#faa702',
+        paddingHorizontal:15,
+    },
+    buyButtonText:{
+        color:'black',
+        fontWeight:'600'
+    }
+})
+
+export default styles;
